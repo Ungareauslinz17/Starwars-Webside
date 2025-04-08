@@ -1,0 +1,58 @@
+Protokoll zur Webseite "Star Wars Fanpage"
+Projektübersicht
+Die Webseite ist eine Fanpage, die sich mit den Star-Wars-Filmen beschäftigt. Sie bietet Informationen zu den einzelnen Episoden, einschließlich Zusammenfassungen, Bildern und Zitaten. Die Seite ist responsiv gestaltet und verwendet moderne Webtechnologien wie HTML5, CSS3 und Flexbox.
+
+Dateistruktur
+Hauptverzeichnis:
+index.html: Die Startseite der Webseite mit einer Übersicht aller Star-Wars-Filme.
+Film Html/: Enthält die HTML-Dateien für die einzelnen Filme.
+starwars1.html bis starwars9.html: Seiten für die Episoden I bis IX.
+css: Enthält die zentralen CSS-Dateien.
+style.css: Hauptstylesheet für das Design und die Animationen.
+img: Enthält die Bilder der Filme und Hintergrundbilder.
+Beispiel: Star Wars I Phantom Menace.jpg, Star Wars IV A New Hope.jpg.
+Technische Details
+HTML
+Struktur:
+
+Jede Seite enthält einen Header mit dem Titel des Films.
+Ein <section>-Element mit der Klasse film-details zeigt das Bild und die Zusammenfassung des Films.
+Ein optionaler Bereich für Zitate oder Zusatzinformationen ist als <section class="film-extra"> implementiert.
+Ein Footer mit Copyright-Informationen ist auf jeder Seite vorhanden.
+Beispielcode (starwars1.html):
+
+CSS
+Design:
+
+Die Webseite verwendet ein dunkles Farbschema mit gelben Akzenten, passend zum Star-Wars-Thema.
+Flexbox wird für das Layout verwendet, um Bild und Text nebeneinander anzuordnen.
+Animationen wie fadeIn, slideIn und slideDown sorgen für ein dynamisches Erscheinungsbild.
+Beispielcode (style.css):
+
+Responsives Design:
+
+Bei einer Bildschirmbreite von weniger als 800px wird das Layout vertikal gestapelt.
+Text wird zentriert, um die Lesbarkeit auf kleinen Bildschirmen zu verbessern.
+Bilder
+Die Bilder der Filme sind im Ordner img gespeichert.
+Beispiel: Star Wars I Phantom Menace.jpg, Star Wars IV A New Hope.jpg.
+Funktionalität
+Navigation:
+
+Jede Seite enthält einen Link zurück zur Startseite (index.html).
+Die Navigation ist einfach und benutzerfreundlich.
+Animationen:
+
+Elemente wie Bilder und Texte erscheinen mit sanften Animationen.
+Hover-Effekte auf Bildern sorgen für Interaktivität.
+Verbesserungsvorschläge
+SEO-Optimierung:
+Hinzufügen von Meta-Beschreibungen und Keywords für bessere Suchmaschinenplatzierung.
+Barrierefreiheit:
+Verwendung von alt-Attributen für alle Bilder (bereits teilweise implementiert).
+Sicherstellen, dass die Webseite mit Screenreadern kompatibel ist.
+Erweiterung:
+Hinzufügen einer Seite mit allgemeinen Informationen über das Star-Wars-Universum.
+Einbindung eines Kontaktformulars für Feedback.
+Zusammenfassung
+Die Webseite ist eine gut strukturierte und ansprechende Fanpage, die sich durch ein modernes Design und Animationen auszeichnet. Mit kleinen Verbesserungen kann sie noch professioneller wirken und ein breiteres Publikum ansprechen.
